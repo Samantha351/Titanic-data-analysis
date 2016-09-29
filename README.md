@@ -1356,6 +1356,5 @@ data_embarked_group.plot(kind = 'bar')
 
 * https://www.kaggle.com/c/titanic/data
 * http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/
-* https://stanford.edu/~mwaskom/software/seaborn/generated/seaborn.factorplot.html#seaborn.factorplot
-* http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3865739/
+
 
