@@ -779,7 +779,7 @@ titanic_data_survived_grouped.plot(kind = 'bar')
 
 
 
-![png](output_17_1.png)
+![png](tools/output_17_1.png)
 
 
 ```python
@@ -796,7 +796,7 @@ titanic_data_survived_grouped.plot(kind = 'bar')
 
 
 
-![png](output_18_1.png)
+![png](tools/output_18_1.png)
 
 
 >Based on the raw numbers it would appear as though passengers in Class 3 had a similar survival rate as those from Class 1 with 119 and 136 passengers surviving respectively. However, looking at the percentages of the overall passengers per class and the total numbers across each class, it can be assumed that a passenger from Class 1 is about 2.5x times more likely to survive than a passenger in Class 3.
@@ -990,7 +990,7 @@ titanic_data_survival_by_age.plot(kind = 'bar')
 
 
 
-![png](output_23_1.png)
+![png](tools/output_23_1.png)
 
 
 >Based on the above boxplot and calculated data, it would appear that age was a deciding factor in the passenger survival rate but the effect of age was too little and can be considered as insignificant.
@@ -1132,7 +1132,7 @@ cleaned_age_grouped_by_category_survival.plot(kind = 'bar')
 
 
 
-![png](output_26_1.png)
+![png](tools/output_26_1.png)
 
 >The data, and more so, the graphs tends to support the idea that "women and children first" possibly played a role in the survival of a number of people. It's a bit surprising that more children didn't survive but this could possibly be attributed to the mis-representation of what age is considered as the cut off for adults - i.e. if in the 1900's someone 15-17 were considered adults, they would not have been "saved" under the "women and children first" idea and would be made to fend for themselves. That would in turn, change the outcome of the above data and possible increase the number of children who survived.
 
@@ -1167,13 +1167,7 @@ children_with_parents[children_with_parents['Survived']==1]['Survived'].count()
     Number of childern with nanny who survived: 16
     Number of childern with nanny: 81
     Number of childern with nanny who survived: 45
-    
-
-    H:\Anaconda-Python\lib\site-packages\ipykernel\__main__.py:1: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
-      if __name__ == '__main__':
-    H:\Anaconda-Python\lib\site-packages\ipykernel\__main__.py:2: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
-      from ipykernel import kernelapp as app
-    
+   
 
 
 ```python
@@ -1322,7 +1316,7 @@ cleaned_age_data_nanny_group.plot(kind = 'bar')
 
 
 
-![png](output_31_1.png)
+![png](tools/output_31_1.png)
 
 
 
@@ -1339,7 +1333,7 @@ data_embarked_group.plot(kind = 'bar')
 
 
 
-![png](output_32_1.png)
+![png](tools/output_32_1.png)
 
 >Based on the data analysis above, it would appear that the survival rate for children who were accompanied by parents vs those children accompanied by nannies was slighly higher for those with parents. The slight increase could be due to the average age of children with parents being younger, almost half, that of children with nannies.
 
